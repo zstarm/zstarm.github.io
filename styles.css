@@ -20,5 +20,5 @@ p {
 li {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
-    list-style-type:lower-greek;
+    list-style-type:lower-roman;
 }
