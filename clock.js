@@ -51,3 +51,8 @@ function calcTime(dates) {
 	startTimer = setInterval(function() { updateTimer(date); }, 1000);
 
 }
+
+function myFunction() {
+	var input = document.getElementById('para').value;
+	document.getElementById('value').innerHTML = input;
+  }
