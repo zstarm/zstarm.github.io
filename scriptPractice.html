@@ -16,11 +16,13 @@
 <h2>My JavaScript Practice Page</h2>
 
 <h3>CountDown Timer App</h3>
-<h6>Enter the Event Title Below</h6>
-<input id="para"><br>
-<button onclick="myFunction();">Submit</button><br>
 <div class="clock-input">
-	<input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+	<form>
+		Event Title: <input type ="text" id="para" name="ename" />
+		<input type="button" value="Submit" onclick="myFunction();" /><br><br>
+		Event Date: <input type = "date" name="time-to" class="time-to" id="time-to" value="">
+		<input type="button" value="Start Timer" onclick="calcTime(document.getElementById('time-to').value)">
+	</form>
 </div>
 <h2 id='value'></h2>
 <div class="container">
